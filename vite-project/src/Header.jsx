@@ -1,7 +1,7 @@
 const Header  = () =>{
   return (
     
-       <h1>Hello this is my React ⭐</h1>
+       <h1>Hello this is my React Counter⭐</h1>
   
   )
 }

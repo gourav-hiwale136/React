@@ -13,7 +13,7 @@ const App = () => {
       <Greeting name="Gourav 😎" />
       <Greeting name="React Learner 😎" />
 
-      <h3>Counter Example:</h3>
+      <h3>Mini Counter</h3>
       <p className="count-value">Count: {count}</p>
     <div className="button-group">
       <button onClick={() => setCount(count + 1)}>Increase</button>

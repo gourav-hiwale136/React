@@ -1,45 +1,87 @@
-/* App.css */
+/* Center everything */
 .container {
   text-align: center;
-  font-family: Arial, sans-serif;
   margin-top: 50px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-.count-value {
+/* Counter text */
+.count {
   font-size: 24px;
-  font-weight: bold;
   margin: 20px 0;
+  color: #333;
 }
 
-.button-group button {
-  margin: 5px;
-  padding: 10px 20px;
+/* Buttons base style */
+button {
+  margin: 8px;
+  padding: 10px 15px;
   font-size: 16px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  background-color: #007bff;
+  transition: 0.2s;
+  min-width: 100px;
+}
+
+/* Button colors */
+button:nth-child(1) {
+  background-color: #4caf50; /* green */
   color: white;
-  transition: background 0.2s;
 }
 
-.button-group button:hover {
-  background-color: #0056b3;
+button:nth-child(2) {
+  background-color: #f44336; /* red */
+  color: white;
 }
 
-.button-group button:nth-child(2) {
-  background-color: #dc3545;
+button:nth-child(3) {
+  background-color: #2196f3; /* blue */
+  color: white;
 }
 
-.button-group button:nth-child(2):hover {
-  background-color: #a71d2a;
+/* Hover */
+button:hover {
+  opacity: 0.8;
 }
 
-.button-group button:nth-child(3) {
-  background-color: #ffc107;
-  color: black;
+/* 🔹 Responsive Design */
+
+/* Small screens (mobile) */
+@media (max-width: 600px) {
+  .count {
+    font-size: 20px;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    font-size: 18px;
+  }
 }
 
-.button-group button:nth-child(3):hover {
-  background-color: #e0a800;
+/* Medium screens (tablet) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .count {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 901px) {
+  .count {
+    font-size: 26px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
 }
