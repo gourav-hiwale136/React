@@ -10,7 +10,7 @@ const App = () => {
   <div className="container">
       <Header />
       <Greeting />
-      <Greeting name="Gaurav 😎" />
+      <Greeting name="Gourav 😎" />
       <Greeting name="React Learner 😎" />
 
       <h3>Counter Example:</h3>
