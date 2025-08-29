@@ -1,0 +1,45 @@
+/* App.css */
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.count-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.button-group button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background 0.2s;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
+.button-group button:nth-child(2) {
+  background-color: #dc3545;
+}
+
+.button-group button:nth-child(2):hover {
+  background-color: #a71d2a;
+}
+
+.button-group button:nth-child(3) {
+  background-color: #ffc107;
+  color: black;
+}
+
+.button-group button:nth-child(3):hover {
+  background-color: #e0a800;
+}
