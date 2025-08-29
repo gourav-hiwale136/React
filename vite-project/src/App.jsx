@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Header from "./components/Practice/Header.jsx";
-import Greeting from "./components/Practice/Greeting.jsx";
+import Header from "./Header.jsx";
+import Greeting from "./Greeting.jsx";
 import "./App.css"
 
 const App = () => {
